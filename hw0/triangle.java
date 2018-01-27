@@ -1,3 +1,4 @@
+// 1a && 1b DrawTriangle
 public class triangle {
 	public static void drawTriangle(int n){
 		int line = 1;
@@ -9,6 +10,8 @@ public class triangle {
 			line++;
 		}
 	}
+
+//test  
 	public static void main(String[] args) {
 		drawTriangle(7);
 	}
