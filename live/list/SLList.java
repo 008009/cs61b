@@ -55,11 +55,18 @@ public class SLList {
 		return count;
 	}
 
+	// get size of the SLList recursive
+	public int recursivesize() {
+		return helper(this.node);
+	}
 	// helper function for getsize
-	// public int helper() {
+	private static int helper(IntNode p) {
+		if (p.tail == null) {
+			return 1;
+		}
+		return 1 + helper(p.tail);
+	}
 
-	// }
-	
 	//test
 	public static void main(String[] args) {
 		SLList P = new SLList(10);
@@ -68,6 +75,6 @@ public class SLList {
 		P.addlast(15); //30,20,10,15
 		System.out.println(P.getfirst());  
 		System.out.println(P.getlast());
-		System.out.println(P.getsize());
+		System.out.println(P.recursivesize());
 	}
 }
