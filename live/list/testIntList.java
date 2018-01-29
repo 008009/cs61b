@@ -1,8 +1,6 @@
 public class testIntList {
 	public static void main (String[] args) {
 		IntList P = new IntList (3, null);
-
-		// how you create a IntList
 		P = new IntList(10, P);
 		P = new IntList(29, P);
 		P = new IntList(34, P);
