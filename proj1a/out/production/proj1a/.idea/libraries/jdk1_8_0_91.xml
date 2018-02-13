@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="jdk1.8.0_91">
+    <ANNOTATIONS>
+      <root url="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk" />
+    </SOURCES>
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk" recursive="false" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk" recursive="false" type="SOURCES" />
+  </library>
+</component>
