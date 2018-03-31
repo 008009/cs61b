@@ -35,8 +35,8 @@
       <file leaf-file-name="ArrayRingBuffer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="110" column="4" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+            <state relative-caret-position="317">
+              <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -331,7 +331,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522393974775</updated>
-      <workItem from="1522393981054" duration="13508000" />
+      <workItem from="1522393981054" duration="13752000" />
     </task>
     <servers />
   </component>
@@ -368,7 +368,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13508000" />
+    <option name="totallyTimeSpent" value="13752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -506,8 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/synthesizer/ArrayRingBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" column="4" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+        <state relative-caret-position="317">
+          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding />
         </state>
       </provider>

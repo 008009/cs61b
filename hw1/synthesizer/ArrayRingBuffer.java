@@ -108,7 +108,7 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T> {
         return fillCount == 0;
     }
 
-    
+
     //test for iterator
     public static void main(String[] args){
         ArrayRingBuffer arb = new ArrayRingBuffer(5);
@@ -118,7 +118,8 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T> {
         arb.enqueue(15);
         arb.enqueue(30);
 
-        Iterator test = arb.iterator();
+        //Iterator test = arb.iterator();
+        ArrayRingBuffer.myIterator test = arb.new myIterator();
         while(!test.hasNext()){
             System.out.println(test.next());
         }
