@@ -56,6 +56,6 @@ public class Hexagon {
 
     public static void main(String[] args) {
         Hexagon test = new Hexagon();
-        test.addHexgon(2)g;
+        test.addHexgon(2);
     }
 }
