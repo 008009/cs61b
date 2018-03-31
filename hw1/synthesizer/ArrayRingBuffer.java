@@ -49,7 +49,6 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T> {
         fillCount = 0;
         this.capacity = capacity;
         rb = (T[])new Object[capacity];
-
     }
 
     /**
@@ -68,7 +67,6 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T> {
             last = last % capacity;
         }
         fillCount++;
-
     }
 
     /**
@@ -110,8 +108,7 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T> {
         return fillCount == 0;
     }
 
-
-
+    
     //test for iterator
     public static void main(String[] args){
         ArrayRingBuffer arb = new ArrayRingBuffer(5);
