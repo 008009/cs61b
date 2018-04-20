@@ -13,7 +13,7 @@ public class RandomWorldDemo {
     private static final int WIDTH = 50;
     private static final int HEIGHT = 50;
 
-    private static final long SEED = 2;
+    private static final long SEED = 10000;
     private static final Random RANDOM = new Random(SEED);
 
     /**
@@ -35,6 +35,7 @@ public class RandomWorldDemo {
      *  chance of being empty space.
      */
     private static TETile randomTile() {
+        // between 0 and 3(exclusive)
         int tileNum = RANDOM.nextInt(3);
         switch (tileNum) {
             case 0: return Tileset.WALL;
