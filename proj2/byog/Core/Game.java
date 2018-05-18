@@ -167,7 +167,7 @@ public class Game {
         for(int y = BotRight.y; y <= TopRight.y; y++){
             world[TopRight.x][y] = Tileset.FLOOR;
         }
-        world[r.center.x][r.center.y] = Tileset.WALL;
+        //world[r.center.x][r.center.y] = Tileset.WALL;
 
     }
 
